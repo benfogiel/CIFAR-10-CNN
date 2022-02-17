@@ -1,0 +1,13 @@
+name: mldl
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pip=21.2.4
+  - black
+  - torchvision
+  - pytorch
+  - tqdm
+  - pip:
+    - torchmetrics==0.6.2
