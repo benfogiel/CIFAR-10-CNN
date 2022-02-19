@@ -1,4 +1,4 @@
-name: mldl
+name: cnn_demo
 channels:
   - pytorch
   - defaults
