@@ -1,4 +1,4 @@
-name: cnn_demo
+name: cnnDemo
 channels:
   - pytorch
   - defaults
