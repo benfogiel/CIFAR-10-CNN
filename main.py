@@ -190,7 +190,7 @@ def predict(model,testloader):
     return preds
 
 predictions = predict(convnet, test_loader)
-with open("submission_medium1_120.csv", "w") as f:
+with open("new_weights.csv", "w") as f:
     writer = csv.writer(f)
     writer.writerow(["id", "label"])
     for i, label in enumerate(predictions):

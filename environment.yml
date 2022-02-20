@@ -1,4 +1,4 @@
-name: cnnDemo
+name: cifar
 channels:
   - pytorch
   - defaults
@@ -9,5 +9,6 @@ dependencies:
   - torchvision
   - pytorch
   - tqdm
+  - matplotlib
   - pip:
     - torchmetrics==0.6.2
