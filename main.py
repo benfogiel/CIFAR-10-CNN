@@ -168,8 +168,7 @@ def validate(epoch, model, valloader, criterion):
     print('Validation | Epoch: {}| Loss: {:.3f} | Accuracy on 10000 val images: {:.1f}'.format \
           (epoch+1, running_loss, 100 * correct / total))
 
-# training for 20 epochs
-for epoch in range(40):
+for epoch in range(50):
     train(epoch, convnet, train_loader, criterion, optimizer)
 
 # validating
